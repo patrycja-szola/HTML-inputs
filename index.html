@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input</title>
+</head>
+<style>
+    div{
+        display: block;
+        margin: 5px;
+    }
+</style>
+<body>
+    <form action="/submit">
+    <div>
+    <label for="first-name">What is your name?</label>
+    <input type="text" name="First name" id="first-name">
+</div>
+<div>
+    <label for="age">Please enter your age.</label>
+    <input type="number" name="Age" id="age">
+</div>
+<div>
+    <label for="present">Best birthday present?</label>
+    <input type="radio" name="present" id="present">Lego set
+    <input type="radio" name="present" id="present">Boardgame
+    <input type="radio" name="present" id="present">Cinema ticket
+</div>
+<div>
+<label for="pets">Do you have any pets?</label>
+<input type="checkbox" name="pets" id="cats">Cats
+<input type="checkbox" name="pets" id="dogs">Dogs
+<input type="checkbox" name="pets" id="fish">fish
+</div>
+<input type="submit" value="Send">
+</form>
+</body>
+</html>
