@@ -9,6 +9,12 @@
           if (event.target.value === "usa") {
             alert("Hi!");
           }
+          if (event.target.value === "poland") {
+            alert("Witaj!");
+          }
+          if (event.target.value === "spain") {
+            alert("Hola!");
+          }
         }
       }
 
