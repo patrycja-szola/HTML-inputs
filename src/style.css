@@ -1,0 +1,12 @@
+div {
+    display: block;
+    margin: 0 auto;
+  }
+
+select {
+  display: block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  min-width: 200px;
+  margin: 15px 0;
+}
