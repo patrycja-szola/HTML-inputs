@@ -1,5 +1,5 @@
       function showSelectedCountry(event) {
-        if (event.target.value.length > 0) {
+        if (event.target.value.length > 0) {          //checking the lenght of option's value; it will only show alert when the value is not blank (empty)
           if (event.target.value === "france") {
             alert("Bonjour!");
           }
